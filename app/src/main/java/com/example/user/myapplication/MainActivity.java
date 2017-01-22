@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     int i;
+    int x;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
         TextView t2;
 
         i=i+1;
+
+       x=x+1;
     }
 }
